@@ -41,16 +41,16 @@ const searchByAuthorName = async (name) => {
 
     // mapeamento dos autores para seus respectivos userIds
     const authorMap = {
-        bruno: 1,
-        bruna: 2,
-        yan: 3,
-        djulian: 4,
-        maila: 5,
-        gabriel: 6,
-        rese: 7,
-        lucas: 8,
-        fernanda: 9,
-        juliander: 10
+        'alice': 1,
+        'bob': 2,
+        'charlie': 3,
+        'dianna': 4,
+        'ethan': 5,
+        'fiona': 6,
+        'george': 7,
+        'hannah': 8,
+        'ian': 9,
+        'julia': 10
     }
 
     // Converte o nome do autor para minúsculas e busca o userId correspondente no authorMap
