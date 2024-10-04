@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Mini Blog</h1>
+        <main>
+            <div id="post-container"></div>
+            <div id="post-content">
+                <form id="search">
+                    <label for="authorNameInput">Pesquise posts pelo nome do Autor(a):</label>
+                    <input type="text" id="authorNameInput" placeholder="Buscar por autora">
+                    <input type="submit" id="btn" value="Pesquisar">
+                </form>
+                <form id="create-post">
+                    <label for="title">Título:</label>
+                    <input type="text" id="title" placeholder="Digite um título">
+                    <label for="body">Descrição:</label>
+                    <textarea id="body" placeholder="Digite o seu texto"></textarea>
+                    <input type="submit" id="btn" value="Criar Post">
+                </form>
+            </div>
+        </main>
+
+    </div>
+</body>
+
+</html>
