@@ -6,7 +6,6 @@ Este projeto é parte do curso **Formação Frontend** da plataforma **Udemy**. 
 
 O Mini Blog utiliza a API pública [JSONPlaceholder](https://jsonplaceholder.typicode.com/posts) para buscar posts e exibi-los na tela. Este projeto foi desenvolvido com o intuito de praticar a integração de APIs e a manipulação de dados no frontend.
 
-### Funcionalidades
 
 ### Funcionalidades
 
